@@ -9,7 +9,90 @@
 
 <h1>Contatos</h1>
 <img src="" width="640" height="auto">
-<h2>  </h2>
+<div>
+    <form name="frm01" method="get" > 
+
+        <input type="hidden" name="txtOculto" value="ValorOculto">
+
+        <fieldset>
+
+            <legend>Contato</legend>
+
+            <div>
+                <label for="idName">Primeiro nome:</label>
+                <input  type="text" name="txtName" id="idName" placeholder="Nome">
+                <h5>Validação: Mínimo de 5 caracteres digitados. <p></p>(este campo não pode estar vazio).</h5>
+            </div>
+
+            <div>
+                <label for="idLastName">Último nome:</label>
+                <input type="text" name="txtLastName" id="idLastName" placeholder="Último nome">
+                <H5>Validação: Mínimo de 5 caracteres digitados. <p></p>
+                    (este campo não pode estar vazio).</H5>
+            </div>
+
+            <div>
+                <label for="idEmail">Email:</label>
+                <input type="text" name="txtEmail" id="idEmail" placeholder="Email">
+                <H5>Validação: Mínimo de 5 caracteres digitados e uso do "@" obrigatório. <p></p>
+                    (este campo não pode estar vazio).</H5>
+            </div>
+            
+            <div>
+                <label for="idTel">Telefone:</label>
+                <input type="text" name="txtTel" id="idTel" placeholder="Telefone">
+                <H5>Validação: Mínimo de 8 caracteres digitados. <p></p>
+                    (este campo não pode estar vazio).</H5>
+            </div>
+
+            <div>
+                <label for="idCel">Celular:</label>
+                <input type="text" name="txtCel" id="idCel" placeholder="Celular">
+                <H5>Validação: Mínimo de 8 caracteres digitados e uso do "9" no início. <p></p>
+                    (este campo não pode estar vazio).</H5>
+            </div>
+
+            <div>
+                <label for="idCEP">CEP:</label>
+                <input type="text" name="txtCEP" id="idCEP" placeholder="CEP">
+                <H5>Validação: Mínimo de 8 caracteres digitados. <p></p>
+                    (este campo não pode estar vazio).</H5>
+            </div>
+
+            <div>
+                <label for="idEnd">Endereço:</label>
+                <input type="text" name="txtEnd" id="idEnd" placeholder="Endereço">
+                <H5>Validação: Mínimo de 4 caracteres digitados. <p></p>
+                    (este campo não pode estar vazio).</H5>
+            </div>
+
+            <div>
+                <label for="idNmr">Número:</label>
+                <input type="text" name="txtNmr" id="idNmr" placeholder="Número">
+                <H5>Validação: (este campo não pode estar vazio).</H5>
+            </div>
+
+            <div>
+                <label for="idPassword">Senha:</label>
+                <input type="password" name="txtPassword" id="idPassword" placeholder="Senha">
+                <H5>Validação: Mínimo de 6 e máximo de 8 caracteres digitados. <p></p>(este campo não pode estar vazio).</H5>
+            </div>
+
+            <div>
+                <label for="idConfirmPassword">Confirmar senha:</label>
+                <input type="password" name="txtConfirmPassword" id="idConfirmPassword" placeholder="Senha">
+                <h5>Validação: Comparar com a senha para garantir que seja igual.</h5>
+            </div>
+
+            <div>
+                <button type="submit" id="btnSubmit">Continuar</button>
+                <button type="reset" id="btnLimpar">Limpar</button>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+</div>
 
 <a href="#">Página Anterior</a> <span> | </span>
 <a href="index.html">Pagina Inicial<a> <span> | </span>
