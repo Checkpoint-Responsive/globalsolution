@@ -3,17 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CFMEA</title>
+    <title>CFMEA - Cultivos eficientes</title>
+    <link rel="stylesheet" href="../styles/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <H1 class="sr-only">CFMEA</H1>
+        <img src="../images/image.png" alt="Banner do projeto CFMEA">
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./agricultura.html">Agricultura</a>
+            <a href="./inteligencia.html">AI`s</a>
+            <a href="./cultivos.html">Cultivo</a>
+            <a href="./contatos.html">Contato</a>
+        </nav>
+    </header>
 
-<h1>Contatos</h1>
-<img src="" width="640" height="auto">
-<h2>  </h2>
+    <div class="hero">
 
-<a href="#">Página Anterios</a> <span> | </span>
-<a href="index.html">Pagina Inicial<a> <span> | </span>
-<a href="#">Próxima Página</a>
 
+        <section class="mainContent">
+
+        <h1>Contato</h1>
+        <p>Entre em contato com nossa equipe utilizando o formulário disponível abaixo, ou através das redes sociais:</p>
+
+
+        <div class="contactImages">
+
+            <a href="#"><img src="../images/github-mark.png" alt="Logo do Github"></a>
+            <a href="#"><img src="../images/linkedin-logo.png" alt="Logo do Gmail"></a>
+        </div>
+
+            <div class="card">
+                <form name="frm01" method="get" > 
+
+                    <input type="hidden" name="txtOculto" value="ValorOculto">
+            
+                    <fieldset>
+            
+                        <legend>Contato</legend>
+            
+                        <div>
+                            <label for="idName">Primeiro nome:</label>
+                            <input  type="text" name="txtName" id="idName" placeholder="Nome">
+                            <h5>Validação: Mínimo de 5 caracteres digitados. <p></p>(este campo não pode estar vazio).</h5>
+                        </div>
+            
+                        <div>
+                            <label for="idLastName">Último nome:</label>
+                            <input type="text" name="txtLastName" id="idLastName" placeholder="Último nome">
+                            <H5>Validação: Mínimo de 5 caracteres digitados. <p></p>
+                                (este campo não pode estar vazio).</H5>
+                        </div>
+            
+                        <div>
+                            <label for="idEmail">Email:</label>
+                            <input type="text" name="txtEmail" id="idEmail" placeholder="Email">
+                            <H5>Validação: Mínimo de 5 caracteres digitados e uso do "@" obrigatório. <p></p>
+                                (este campo não pode estar vazio).</H5>
+                        </div>
+                        
+                        <div>
+                            <label for="idTel">Telefone:</label>
+                            <input type="text" name="txtTel" id="idTel" placeholder="Telefone">
+                            <H5>Validação: Mínimo de 8 caracteres digitados. <p></p>
+                                (este campo não pode estar vazio).</H5>
+                        </div>
+            
+                        <div>
+                            <label for="idCel">Celular:</label>
+                            <input type="text" name="txtCel" id="idCel" placeholder="Celular">
+                            <H5>Validação: Mínimo de 8 caracteres digitados e uso do "9" no início. <p></p>
+                                (este campo não pode estar vazio).</H5>
+                        </div>
+            
+                        <div>
+                            <label for="idCEP">CEP:</label>
+                            <input type="text" name="txtCEP" id="idCEP" placeholder="CEP">
+                            <H5>Validação: Mínimo de 8 caracteres digitados. <p></p>
+                                (este campo não pode estar vazio).</H5>
+                        </div>
+            
+                        <div>
+                            <label for="idEnd">Endereço:</label>
+                            <input type="text" name="txtEnd" id="idEnd" placeholder="Endereço">
+                            <H5>Validação: Mínimo de 4 caracteres digitados. <p></p>
+                                (este campo não pode estar vazio).</H5>
+                        </div>
+            
+                        <div>
+                            <label for="idNmr">Número:</label>
+                            <input type="text" name="txtNmr" id="idNmr" placeholder="Número">
+                            <H5>Validação: (este campo não pode estar vazio).</H5>
+                        </div>
+            
+                        <div>
+                            <label for="idPassword">Senha:</label>
+                            <input type="password" name="txtPassword" id="idPassword" placeholder="Senha">
+                            <H5>Validação: Mínimo de 6 e máximo de 8 caracteres digitados. <p></p>(este campo não pode estar vazio).</H5>
+                        </div>
+            
+                        <div>
+                            <label for="idConfirmPassword">Confirmar senha:</label>
+                            <input type="password" name="txtConfirmPassword" id="idConfirmPassword" placeholder="Senha">
+                            <h5>Validação: Comparar com a senha para garantir que seja igual.</h5>
+                        </div>
+            
+                        <div id="buttons">
+                            <button type="submit" id="btnSubmit">Continuar</button>
+                            <button type="reset" id="btnLimpar">Limpar</button>
+                        </div>
+            
+                    </fieldset>
+                </form>
+            </div>
+            </div>
+        </section>
+
+    <footer>
+        <h3>CFMEA - Projeto Global Solution</h3>
+        <p>Projeto de Global Solution feito pelo grupo da Sala 1TDSPM</p>
+
+        <span>Eduardo de Toledo Violante - RM550364</span>
+        <span>Matheus Henrique Santos Menezes - RM551843</span>
+        <span>Pamella Schimalesky Engholm - RM551600</span>
+        <span>David Bryan Viana de Sales - RM551236</span>
+        <span>Pedro Gomes Fernandes - RM551480</span>
+
+        <a href="./contatos.html">Contate-nos</a>
+
+    </footer>
+    </div>
 </body>
 </html>

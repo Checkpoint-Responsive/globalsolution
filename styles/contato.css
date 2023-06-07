@@ -1,3 +1,11 @@
+a {
+    text-decoration: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
 body {
     font-size: 1.6rem;
 }
@@ -26,11 +34,11 @@ header {
 
 header nav {
     display: flex;
-    flex-direction: column;
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem 0;
+    padding: 0 auto;
+    padding: 0.5rem;
     background: #02799D;
 }
 
@@ -72,7 +80,7 @@ footer {
     gap: 5rem;
 }
 
-.mainContent img {
+.mainContent img{
     width: 10rem;
 }
 
@@ -85,7 +93,7 @@ footer {
     flex-wrap: wrap;
     gap: 2.5rem;
     background: #02799D;
-    border: 1px solid aliceblue;
+    border: aliceblue;
     border-radius: 9px;
     overflow: hidden;
 }
@@ -102,7 +110,7 @@ footer {
     height: auto;
 }
 
-.card form fieldset {
+.card form fieldset{
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -110,24 +118,32 @@ footer {
     border: none;
 }
 
-.card form fieldset div {
+.card form fieldset div{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-fieldset div input {
+fieldset div input{
     background: #FAFAFC;
+
     box-sizing: border-box;
+
+
     border: 1px solid #E6E6F0;
     border-radius: 8px;
+
+
     padding: 0 24px;
+
     font-size: 16px;
     line-height: 26px;
+
+
     color: #6c6a71;
 }
 
-form {
+form{
     margin-top: 3.8rem;
     border-radius: 8px 8px 0 0;
     min-height: 30rem;
@@ -137,27 +153,27 @@ form {
     gap: 4.8rem;
 }
 
-legend {
+legend{
     font-size: 3rem;
     margin-bottom: 2rem;
 }
 
-fieldset label {
+fieldset label{
     font-size: 1.4rem;
     line-height: 2.44rem;
     margin-bottom: 0.8rem;
     margin-top: 2.44rem;
 }
 
-fieldset h5 {
+fieldset h5{
     margin-left: 1.2rem;
     font-size: 1.2rem;
     line-height: 2rem;
 }
 
-fieldset div button {
-    background: #04D361;
-    border-radius: 8px;
+fieldset div button{
+    border: none;
+    background: none;
     width: 10rem;
     height: 5.6rem;
     font-family: 'Archivo';
@@ -166,15 +182,17 @@ fieldset div button {
     font-size: 1.6rem;
     line-height: 2.6rem;
     color: #FFFFFF;
+    background: #04D361;
+    border-radius: 8px;
     border: 0;
     cursor: pointer;
 }
-
-fieldset div button:hover {
+fieldset div button:hover{
     background: #004720;
+
 }
 
-#buttons {
+#buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -187,14 +205,14 @@ fieldset div button:hover {
         width: 100%;
     }
 
-    header img {
+    header img{
         width: 30rem;
     }
 
     header nav a {
         width: auto;
         margin: 0.5rem;
-        width: 20rem;
+        width: 20rem;        
     }
 
     .mainContent h1 {
@@ -229,6 +247,7 @@ fieldset div button:hover {
     .mainContent h1 {
         font-size: 2.5rem;
     }
+
 
     .cardText {
         margin: 1.5rem;
